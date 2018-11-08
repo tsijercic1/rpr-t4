@@ -1,13 +1,44 @@
 package ba.unsa.etf.rpr.tutorijal04;
 
-import java.util.Collection;
+
+import java.util.Set;
+
 
 public class Predmet {
     private String imePredmeta;
     private int ects;
-    private java.util.ArrayList<Student> studenti;
+    private Set<Student> studenti;
 
-    public Collection<Student> getStudenti() {
-        return null;
+    public Predmet(String imePredmeta, int ects) {
+        this.imePredmeta = imePredmeta;
+        this.ects = ects;
     }
+
+    public String getImePredmeta() {
+        return imePredmeta;
+    }
+
+    public void setImePredmeta(String imePredmeta) {
+        this.imePredmeta = imePredmeta;
+    }
+
+    public int getEcts() {
+        return ects;
+    }
+
+    public void setEcts(int ects) {
+        this.ects = ects;
+    }
+
+    public void upisiStudenta(Student student){
+    }
+
+    public void ispisiStudenta(Student student){
+
+    }
+
+    public Set<Student> getStudenti() {
+        return studenti;
+    }
+
 }

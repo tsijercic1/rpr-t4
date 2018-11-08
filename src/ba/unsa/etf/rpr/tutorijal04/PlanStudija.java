@@ -1,5 +1,8 @@
 package ba.unsa.etf.rpr.tutorijal04;
 
+import java.util.HashMap;
+
 public class PlanStudija {
-    private java.util.ArrayList<Semestar> semestri;
+    private HashMap<Integer,HashMap<Predmet,Boolean>> semestri;
+
 }
