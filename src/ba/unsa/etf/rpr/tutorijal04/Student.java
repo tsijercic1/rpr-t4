@@ -44,4 +44,8 @@ public class Student {
 
     public void upisiSemestar() {
     }
+
+    int compareTo(Student student){
+        return this.getImePrezime().compareTo(student.getImePrezime());
+    }
 }

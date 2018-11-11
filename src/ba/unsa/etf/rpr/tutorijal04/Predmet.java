@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class Predmet {
     private String imePredmeta;
+
     private int ects;
     private Set<Student> studenti;
 
@@ -31,10 +32,11 @@ public class Predmet {
     }
 
     public void upisiStudenta(Student student){
+            studenti.add(student);
     }
 
     public void ispisiStudenta(Student student){
-
+        studenti.remove(student);
     }
 
     public Set<Student> getStudenti() {
