@@ -38,12 +38,9 @@ public class Student {
         return zavrsioSemestar;
     }
 
-    public void setZavrsioSemestar(int zavrsioSemestar) {
-        this.zavrsioSemestar = zavrsioSemestar;
-    }
-
-    public void upisiSemestar() {
-    }
+    //public void setZavrsioSemestar(int zavrsioSemestar) {
+      //  this.zavrsioSemestar = zavrsioSemestar;
+    //}
 
     int compareTo(Student student){
         return this.getImePrezime().compareTo(student.getImePrezime());
